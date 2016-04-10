@@ -64,6 +64,6 @@ public class StrengthPotionsModule extends DisableableModule {
 
     @Override
     protected boolean isEnabledByDefault() {
-        return false;
+        return true;
     }
 }
