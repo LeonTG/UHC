@@ -131,6 +131,7 @@ public class UHC extends JavaPlugin {
         PotionFuelsListener fuelsListener = new PotionFuelsListener();
         registry.registerEvents(fuelsListener);
         registry.register(new Tier2PotionsModule(fuelsListener));
+        registry.register(new StrengthPotionsModule(fuelsListener));
         registry.register(new SplashPotionsModule(fuelsListener));
 
         TimerModule timer = new TimerModule();
